@@ -12,7 +12,7 @@ Node.js implementation of the **`remark-deflist-revisited`** module, demonstrati
 
 ## 📄 Overview
 
-This project provides a Express.js equivalent of the **[Cloudflare Worker]** example, showcasing how to use **`remark-deflist-revisited`** in a Node.js environment with **[Express.js]** server and modular processing capabilities. **[Simple]** example is also available.
+This project provides a Express.js equivalent of the **[Cloudflare Worker]** example, showcasing how to use **`remark-deflist-revisited`** in a Node.js environment with Express.js server and modular processing capabilities. **[Simple]** example is also available.
 
 ## ✨ Features
 
@@ -169,17 +169,6 @@ getStyles() {
   `;
 }
 ```
-<!--
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 🙏 Acknowledgments
-
-- [veriKami] for the remark-deflist-revisited plugin
-- [Remark] team for the excellent markdown ecosystem
-- [Express.js] team for the web framework
--->
 
 ## 📄 License
 
@@ -192,7 +181,6 @@ This project is Open Source and available under the MIT License.
 
 [module]: https://github.com/veriKami/remark-deflist-revisited
 [Simple]: https://github.com/veriKami/remark-deflist-revisited-simple
-[Express.js]: https://github.com/veriKami/remark-deflist-revisited-express
 [Cloudflare Worker]: https://github.com/veriKami/remark-deflist-revisited-worker
 
 [GH]: https://github.com/veriKami/remark-deflist-revisited
