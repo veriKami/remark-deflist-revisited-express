@@ -10,11 +10,11 @@ Node.js implementation of the **`@verikami/remark-deflist-revisited`** module, d
 
 **[Remark Deflist Revisited][module]** is a **[Remark]** plugin. A wrapper around **`remark-deflist`** with improved support for nested definition lists. It preserves all the original functionality and performs additional processing. 
 
-## 📄 Overview
+## Overview
 
 This project provides a Express.js equivalent of the **[Cloudflare Worker]** example, showcasing how to use **`remark-deflist-revisited`** in a Node.js environment with Express.js server and modular processing capabilities. **[Simple]** example is also available.
 
-## ✨ Features
+## Features
 
 - **Full Markdown Processing**: Convert markdown with definition lists to HTML
 - **Enhanced Definition Lists**: Support for complex nested structures
@@ -23,7 +23,7 @@ This project provides a Express.js equivalent of the **[Cloudflare Worker]** exa
 - **Beautiful Styling**: Professional CSS styling with gradient background
 - **Error Handling**: Comprehensive error handling and validation
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -52,7 +52,7 @@ This project provides a Express.js equivalent of the **[Cloudflare Worker]** exa
 
 The server will start on `http://localhost:3000`
 
-## 📖 API Endpoints
+## API Endpoints
 
 ### GET `/`
 - **Description**: Returns a demo page with pre-processed markdown
@@ -68,7 +68,7 @@ The server will start on `http://localhost:3000`
 - **Body**: `{ "markdown": "Your markdown content here" }`
 - **Response**: `{ "html": "<p>Processed HTML</p>", "processed": true }`
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### Using the Express Server
 
@@ -118,7 +118,7 @@ Node.js
 });
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -128,7 +128,7 @@ Node.js
 └── README.md                  # This file
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### Production Dependencies
 
@@ -138,17 +138,18 @@ Node.js
 - `remark-html` → HTML serializer for remark
 - `dedent` → Dedent template strings
 
-## 🎯 Comparison with Cloudflare Worker version
+## Comparison with Other Implementations
 
-| Feature | Cloudflare Worker | Node.js Version |
-|---------|-------------------|----------------|
-| **Environment** | Edge runtime | Server runtime |
-| **Deployment** | Cloudflare Workers | Any Node.js host |
-| **API** | Single fetch handler | Multiple REST endpoints |
-| **Scalability** | Automatic scaling | Manual scaling |
-| **Cold Start** | Very fast | Standard Node.js startup |
+| Feature         | Express.js   | Astro Integration   | Cloudflare Worker |
+|-----------------|--------------|---------------------|-------------------|
+| **Rendering**   | Server-side  | SSG/SSR             | Edge              |
+| **Build Time**  | Runtime      | Pre-built at deploy | Runtime           |
+| **Performance** | Good         | Excellent (static)  | Excellent (edge)  |
+| **Complexity**  | Medium       | Low                 | Low               |
+| **Use Case**    | Dynamic apps | Documentation sites | API endpoints     |
 
-## 🛠️ Development
+
+## Development
 
 ### Adding New Features
 
@@ -170,11 +171,10 @@ getStyles() {
 }
 ```
 
-## 📄 License
+## License
 
-This project is Open Source and available under the MIT License.
-
-2025 © MIT °// [veriKami] °// [Weronika Kami] °// [remark-deflist-revisited](https://github.com/verikami/remark-deflist-revisited)
+This project is Open Source and available under the MIT License  
+2025 © MIT °// [veriKami] °// [Weronika Kami]
 
 [veriKami]: https://verikami.com
 [Weronika Kami]: https://linkedin.com/in/verikami
